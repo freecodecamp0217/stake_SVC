@@ -1,0 +1,44 @@
+html,
+body {
+  width: '100vw';
+  height: '100vh';
+  background-color: #090721;
+  padding: 0;
+  margin: 0;
+  font-family: 'Square' !important;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.MuiTypography-root {
+  font-family: Square !important;
+}
+
+@font-face {
+  font-family: 'Square';
+  src: url('../assets/fonts/EuclidSquare-Medium.woff') format('opentype');
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+input[type='number']::-webkit-clear-button {
+  display: none;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+input[type='number']::-webkit-outside-spin-button {
+  display: none;
+}
